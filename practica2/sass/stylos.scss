@@ -11,7 +11,7 @@ header{
     height: 22vh;
     text-align: center;
     background:whitesmoke;
-
+    border-radius: 10px;
 }
 h1{
     
@@ -26,9 +26,13 @@ h1{
 
 }
 #conte{
+    border-radius: 10px;
     background:greenyellow;
     height: 92vh;
     width: 79vw;
+    margin: 0px 5px;
+    float: left;
+    margin-top: 10px;
 }
 .parrafo1{
    
@@ -39,7 +43,7 @@ h1{
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background: blue;
+  
     float: left;
 }
 .parrafo2{
@@ -50,11 +54,11 @@ h1{
     margin: 8px;
     font-size: 15px;
     text-align: center;
-    background: red;
+  
     float: left;
 }
 .parrafo3{
-  background: violet;
+
     width:17vw;
     height: 60vh;
     color: white;
@@ -66,26 +70,37 @@ h1{
 img{
     width: 58vw;
     height: 60vh;
-    background: green;
+   
+    text-align: center;
 }
 h3{
     font-size: 30px;
 }
 aside{
-    width: 14vw;
+    width: 18vw;
     height: 100vh;
-    background:teal;
-    float: right;
+ 
+    float: left;
 }
 .pub1{
-
-background: blue;
-margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+background:greenyellow;
 height: 15vh;
+text-align: center;
+float: left;
+border-radius: 10px;
+
 }
 .pub{
 
-    background: chocolate;
+    background:rgb(230, 228, 228);
+    height: 50vh;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+}
+p{
+    color: white;
     margin-top: 10px;
-    height: 40vh;
 }

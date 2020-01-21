@@ -32,11 +32,10 @@ header {
   height: 75vh;
   margin: 0px 5px;
   float: left;
-  background: gray;
 }
 
 article {
-  background: papayawhip;
+  background: pink;
   margin-top: 10px;
 }
 
@@ -52,7 +51,6 @@ h3 {
 }
 
 aside {
-  background: blue;
   width: 24%;
   float: left;
   height: 90vh;
@@ -73,9 +71,7 @@ img {
 }
 
 footer {
-  background: black;
   clear: both;
-  color: white;
   height: 8vh;
   text-align: center;
 }

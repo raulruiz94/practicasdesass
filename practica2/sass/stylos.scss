@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole|Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    color:black;
+    height: 22vh;
+    text-align: center;
+    background:whitesmoke;
+
+}
+h1{
+    
+    transform: translateY(80%);
+    font-family: 'Pacifico', cursive;
+    width: 40%;
+}
+.mente{
+
+    color: yellowgreen;;
+    font-family: 'Frijole', cursive;
+
+}
+#conte{
+    background:greenyellow;
+    height: 92vh;
+    width: 79vw;
+}
+.parrafo1{
+   
+    height: 25vh;
+    width: 40vw;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background: blue;
+    float: left;
+}
+.parrafo2{
+    
+    height: 28vh;
+    width: 35vw;
+    color: white;
+    margin: 8px;
+    font-size: 15px;
+    text-align: center;
+    background: red;
+    float: left;
+}
+.parrafo3{
+  background: violet;
+    width:17vw;
+    height: 60vh;
+    color: white;
+    float: left;
+    margin: 8px;
+    
+    text-align: center;
+}
+img{
+    width: 58vw;
+    height: 60vh;
+    background: green;
+}
+h3{
+    font-size: 30px;
+}
+aside{
+    width: 14vw;
+    height: 100vh;
+    background:teal;
+    float: right;
+}
+.pub1{
+
+background: blue;
+margin-top: 10px;
+height: 15vh;
+}
+.pub{
+
+    background: chocolate;
+    margin-top: 10px;
+    height: 40vh;
+}

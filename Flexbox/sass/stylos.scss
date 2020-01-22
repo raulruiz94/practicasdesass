@@ -1,0 +1,22 @@
+.flex-container{
+display: flex;          //para que los divs se alinien de forma horizontal
+background:dodgerblue;
+height: 80vh;
+//flex-direction: column-reverse;
+//flex-wrap: wrap;
+//flex-flow: column nowrap;
+//justify-content:space-between;      //dar espaciado entre divs
+//align-items: flex-end; //centrar divs center ,flex-start,flex-end
+flex-wrap: wrap;
+align-content: flex-end;
+}
+.flex-container>div{
+
+background: gray;
+width: 17%;
+height: 17vh;
+margin: 10px 5px;
+font-size: 30px;
+text-align: center;
+line-height: 100px; //anchura de linea
+}

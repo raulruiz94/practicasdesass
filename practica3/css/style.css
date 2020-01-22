@@ -34,7 +34,7 @@ section {
 }
 
 .secTex {
-  height: 100px;
+  height: 100vh;
   padding: 50px 100px;
   color: blue;
 }
@@ -50,7 +50,7 @@ section {
 
 .secTex > p {
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

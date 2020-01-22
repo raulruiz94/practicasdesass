@@ -27,8 +27,8 @@ h1 {
 
 #conte {
   border-radius: 10px;
-  background: greenyellow;
-  height: 92vh;
+  background: #18d175;
+  height: 97vh;
   width: 79vw;
   margin: 0px 5px;
   float: left;
@@ -36,6 +36,7 @@ h1 {
 }
 
 .parrafo1 {
+  font-weight: bolder;
   height: 25vh;
   width: 40vw;
   color: white;
@@ -47,6 +48,7 @@ h1 {
 }
 
 .parrafo2 {
+  font-weight: bolder;
   height: 28vh;
   width: 35vw;
   color: white;
@@ -57,6 +59,7 @@ h1 {
 }
 
 .parrafo3 {
+  font-weight: bolder;
   width: 17vw;
   height: 60vh;
   color: white;
@@ -73,6 +76,7 @@ img {
 
 h3 {
   font-size: 30px;
+  font-weight: bolder;
 }
 
 aside {
@@ -84,16 +88,18 @@ aside {
 .pub1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  background: greenyellow;
-  height: 15vh;
+  background: #18d175;
+  height: 20vh;
   text-align: center;
   float: left;
   border-radius: 10px;
+  width: 100%;
 }
 
 .pub {
+  width: 100%;
   background: #e6e4e4;
-  height: 50vh;
+  height: 76vh;
   text-align: center;
   float: left;
   border-radius: 10px;
@@ -102,6 +108,14 @@ aside {
 p {
   color: white;
   margin-top: 10px;
+}
+
+.eje {
+  font-family: "Frijole", cursive;
+  text-align: right;
+  color: black;
+  font-size: 20px;
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

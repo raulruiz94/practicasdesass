@@ -44,7 +44,7 @@ body {
 .container:hover img:nth-child(1) {
   transform: translate(40px, -40px);
   opacity: 0.4;
-  transition: 4s;
+  transition: 2s;
 }
 
 /*# sourceMappingURL=style.css.map */

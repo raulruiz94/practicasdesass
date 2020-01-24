@@ -1,0 +1,109 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 30px;
+}
+
+.contenedor {
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  background: black;
+}
+
+.pelota {
+  background: orangered;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  display: flex;
+  animation: slide 3s linear infinite alternate;
+  transform: translate(0px, 490px);
+}
+
+@keyframes slide {
+  10% {
+    background-color: darkviolet;
+    margin-right: 0%;
+  }
+  10% {
+    margin-right: 0%;
+  }
+  20% {
+    background-color: forestgreen;
+    margin-top: -40%;
+  }
+  20% {
+    margin-left: 7%;
+  }
+  30% {
+    background-color: white;
+    margin-top: 0%;
+  }
+  30% {
+    background-color: brown;
+    margin-left: 15%;
+  }
+  40% {
+    background-color: #15c915;
+    margin-top: -30%;
+  }
+  40% {
+    background-color: #45e437;
+    margin-left: 25%;
+  }
+  50% {
+    background-color: #461822;
+    margin-top: 0%;
+  }
+  50% {
+    margin-left: 40%;
+  }
+  60% {
+    background-color: #f37070;
+    margin-top: -20%;
+  }
+  60% {
+    margin-left: 50%;
+  }
+  70% {
+    background-color: #30cfc2;
+    margin-top: 0%;
+  }
+  70% {
+    margin-left: 60%;
+  }
+  80% {
+    background-color: #c29e27;
+    margin-top: -10%;
+  }
+  80% {
+    margin-left: 70%;
+  }
+  90% {
+    background-color: #22989c;
+    margin-top: 0%;
+  }
+  90% {
+    margin-left: 78%;
+  }
+  95% {
+    background-color: #3850a1;
+    margin-top: 0;
+  }
+  95% {
+    margin-left: 83%;
+  }
+  100% {
+    background-color: #3cce2f;
+    margin-top: 0%;
+  }
+  100% {
+    margin-left: 89%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

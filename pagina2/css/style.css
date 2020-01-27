@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.oo {
+  color: greenyellow;
+  margin: -40px;
+  font-family: "Josefin Slab", serif;
+}
+
+.ooo {
+  color: greenyellow;
+  margin: -40px;
+  font-family: "Josefin Slab", serif;
+}
+
+h1 {
+  margin: 0px;
+  height: 97%;
+  color: gray;
+  font-size: 130px;
+  font-family: "Josefin Slab", serif;
+  width: 433%;
+}
+
+.h1-2 {
+  margin: 0px;
+  color: gray;
+  font-size: 96px;
+  transform: translate(100px, 120px);
+  font-family: "Josefin Slab", serif;
+}
+
+.title {
+  height: 22vh;
+  position: absolute;
+  top: -2px;
+}
+
+.conteO {
+  transform: translate(114px, -129px);
+  position: relative;
+  font-size: 140px;
+  margin: auto;
+}
+
+.conteforum1 {
+  background: red;
+  height: 0%;
+  margin-top: 0%;
+}
+
+.conteO2 {
+  transform: translate(191px, 5px);
+  position: relative;
+  font-size: 100px;
+  margin: auto;
+}
+
+.revista {
+  font-size: 25px;
+  position: absolute;
+  transform: translate(-52px, 44px);
+  color: yellowgreen;
+}
+
+.revistaa {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Josefin Slab", serif;
+  transform: translate(-175px, -15px);
+}
+
+.rum {
+  position: relative;
+  transform: translate(190px, -269px);
+  font-family: "Josefin Slab", serif;
+}
+
+.rum2 {
+  color: gray;
+  position: relative;
+  transform: translate(227px, -106px);
+  font-size: 95px;
+}
+
+.mirada {
+  font-size: 25px;
+  width: 70%;
+  height: 30%;
+  position: absolute;
+  transform: translate(-192px, 111px);
+  color: yellowgreen;
+  font-family: "Josefin Slab", serif;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  font-family: "Josefin Slab", serif;
+  margin-top: 11%;
+}
+
+div ul {
+  margin: 0px auto;
+  padding: 0px;
+  height: 50px;
+  width: 100vw;
+}
+
+div > ul > a > li {
+  font-size: 20px;
+  color: white;
+  list-style: none;
+  width: 11.7vw;
+  height: 40px;
+  text-align: center;
+  margin: 3px;
+  float: left;
+  line-height: 40px;
+  background: greenyellow;
+}
+
+.fecha {
+  font-size: 20px;
+  color: white;
+  list-style: none;
+  width: 25vw;
+  height: 40px;
+  text-align: center;
+  margin: 4px;
+  float: left;
+  line-height: 40px;
+  background: gray;
+}
+
+.img1 {
+  margin: auto;
+  margin-top: -2px;
+  width: 99%;
+  height: 65vh;
+  background: url(../img/70-701963_wallpapers-full-hd-4k-para-pc-pubg-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+div.img2 {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 80%;
+  font-size: 20px;
+  background: red;
+}
+
+div > img {
+  margin: 5px;
+  width: 23.6%;
+  height: 75%;
+  border: 1px solid;
+}
+
+.borde {
+  margin: auto;
+  position: absolute;
+  width: 97.5%;
+  height: 62.3%;
+  border: 1px solid white;
+  transform: translate(9px, 10px);
+}
+
+.con {
+  font-size: 24px;
+  color: white;
+  transform: translate(48px, 346px);
+  position: absolute;
+}
+
+.forum2conte {
+  position: absolute;
+  transform: translate(709px, 86px);
+}
+
+.divdeportadas {
+  margin: auto;
+  margin-top: 0px;
+  width: 99%;
+  height: 60%;
+}
+
+.portada1 {
+  margin-top: 10px;
+  background: purple;
+  width: 24%;
+  height: 65%;
+  position: absolute;
+  transform: translate(2%, 0px);
+}
+
+.online {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.circulo1 {
+  font-size: 1570%;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  color: white;
+  border-radius: 100px;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+}
+
+.circulorosa {
+  height: 65%;
+  width: 83%;
+  background: #cf7cad;
+  position: absolute;
+  border-radius: 100px;
+  transform: translate(18px, -233px);
+}
+
+.forumradio {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  font-family: Georgia, Times, serif;
+  transform: translate(26px, -201px);
+}
+
+.radio {
+  font-size: 28px;
+  color: gray;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transform: translate(101px, -153px);
+}
+
+.lorem {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  transform: translate(9px, 234px);
+}
+
+.todo {
+  position: absolute;
+  transform: translate(10px, -51px);
+}
+
+.portada2 {
+  margin-top: 10px;
+  background: gray;
+  width: 24%;
+  height: 65%;
+  position: absolute;
+  transform: translate(105%, 0px);
+}
+
+.h1-3 {
+  margin: 0px;
+  color: white;
+  font-size: 32px;
+  transform: translate(210px, 13px);
+  font-family: "Josefin Slab", serif;
+}
+
+.conteO3 {
+  transform: translate(269px, -28px);
+  position: relative;
+  font-size: 40px;
+  margin: auto;
+}
+
+.rum3 {
+  color: white;
+  position: relative;
+  transform: translate(261px, -71px);
+  font-size: 32px;
+}
+
+.forum3conte {
+  position: absolute;
+  transform: translate(-115px, 15px);
+}
+
+.ooo3 {
+  color: greenyellow;
+  margin: -40px;
+  font-family: "Josefin Slab", serif;
+  font-size: 1471%;
+  position: absolute;
+  left: 292%;
+  top: 95%;
+}
+
+.cir3 {
+  color: white;
+  position: absolute;
+  left: 285%;
+  top: 70%;
+  font-size: 250%;
+}
+
+.empre3 {
+  color: white;
+  position: absolute;
+  left: 283%;
+  top: 124%;
+  font-size: 125%;
+}
+
+.invita3 {
+  width: 100%;
+  color: white;
+  position: absolute;
+  left: 312%;
+  top: 26%;
+  font-size: 125%;
+}
+
+.lorem50 {
+  width: 364%;
+  color: white;
+  position: absolute;
+  left: 184%;
+  top: 213%;
+  text-align: center;
+  font-size: 96%;
+}
+
+.verde {
+  color: greenyellow;
+}
+
+.portada3 {
+  border: 2px solid;
+  margin-top: 10px;
+  width: 23.7%;
+  height: 65%;
+  position: absolute;
+  transform: translate(208%, 1px);
+}
+
+.portada4 {
+  margin-top: 10px;
+  width: 23.9%;
+  height: 66%;
+  position: absolute;
+  transform: translate(311%, 1px);
+}
+
+.hoja {
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  left: -1%;
+  top: -1%;
+  border: none;
+}
+
+.h1-4 {
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  transform: translate(198px, 55px);
+  font-family: "Josefin Slab", serif;
+}
+
+.conteO4 {
+  transform: translate(262px, -7px);
+  position: relative;
+  font-size: 56px;
+  margin: auto;
+}
+
+.rum4 {
+  color: white;
+  position: relative;
+  transform: translate(261px, -71px);
+  font-size: 50px;
+}
+
+.forum4conte {
+  position: absolute;
+  transform: translate(-127px, 14px);
+}
+
+.revista2 {
+  color: white;
+  position: absolute;
+  left: 175%;
+  font-size: 22px;
+  top: 16%;
+}
+
+.revista3 {
+  color: white;
+  position: absolute;
+  left: 151%;
+  font-size: 22px;
+  top: 84%;
+}
+
+.letra-e {
+  font-size: 15px;
+}
+
+.h1-6 {
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  transform: translate(198px, 55px);
+  font-family: "Josefin Slab", serif;
+}
+
+.conteO6 {
+  transform: translate(262px, -7px);
+  position: relative;
+  font-size: 56px;
+  margin: auto;
+}
+
+.rum6 {
+  color: white;
+  position: relative;
+  transform: translate(261px, -71px);
+  font-size: 50px;
+}
+
+.forum6conte {
+  position: absolute;
+  transform: translate(632px, 106px);
+}
+
+/*# sourceMappingURL=style.css.map */

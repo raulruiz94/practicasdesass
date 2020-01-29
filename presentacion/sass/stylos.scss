@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -62,11 +66,13 @@ width: 100%;
 text-align: center;
 padding: 20px;
 box-sizing: border-box;
+font-family: 'Pacifico', cursive;
+
 }
 .card  .back .details h2{
     margin: 0px;
     padding: 0px;
-    font-size: 24px;
+    font-size: 30px;
 }
 .card  .back .details h2 span{
 color: white;

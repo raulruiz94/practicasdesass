@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+img {
+  width: 99%;
+  height: 97%;
+  display: block;
+  border: 2px solid #fff;
+  opacity: 1;
+}
+
+.contenedor > .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.contenedor > .row > div {
+  width: 20vw;
+  height: 20vh;
+  border: 3px solid #525252;
+  position: relative;
+}
+
+span::after {
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  color: blanchedalmond;
+  text-align: center;
+}
+
+span {
+  display: block;
+  position: absolute;
+  color: blue;
+}
+
+.contenedor > .row > div > span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+  font-size: 30px;
+}
+
+.contenedor > .row > div:hover > img {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.contenedor > .row > div:hover > span {
+  visibility: visible;
+}
+
+/*# sourceMappingURL=style.css.map */

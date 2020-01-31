@@ -1,0 +1,70 @@
+/*
+$->Caracter para indicar a sass que se declarara una variable
+$****** -> En los asteriscos se escribira el nombre de la variable :    
+                                                caracteristicas de las variables:
+                                                1.- No deben iniciar con un numero
+                                                2.- Son casesensintive
+                                                3.-No puede ser solo un numero(tienen que ser alfanumericas)
+                                                4.-No deben haber variables con el mismo nombre
+                                                5.-No puede haber espacio entre las variables si se decea porner espacio se con un "_"
+$color1: -> Los 2 puntos hace referencia a que la variable sera inicializada
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #18191f;
+  flex-direction: column;
+}
+
+footer {
+  color: white;
+}
+
+ul {
+  position: relative;
+  display: flex;
+  margin: 10px 0px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #18191f;
+  text-align: center;
+  line-height: 55px;
+  margin: 0 10px;
+  border-radius: 15px;
+  box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.03), 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+ul li a .fa {
+  font-size: 22px;
+  color: #555;
+}
+ul:nth-child(1) li a:hover .fa {
+  color: #00f3ff;
+  transition: 0.3s;
+  text-shadow: 0 0 15px #00f3ff;
+}
+ul:nth-child(2) li a:hover .fa {
+  color: #f00;
+  transition: 0.3s;
+  text-shadow: 0 0 15px #f00;
+}
+ul:nth-child(3) li a:hover .fa {
+  color: #0f0;
+  transition: 0.3s;
+  text-shadow: 0 0 15px #0f0;
+}
+
+/*# sourceMappingURL=style.css.map */

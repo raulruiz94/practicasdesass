@@ -1,0 +1,62 @@
+$color1: #18191f;
+$MedidaGlobal: 50px;
+$colores: #00f3ff, #f00, #0f0;
+$fila: 1, 2, 3;
+/*
+$->Caracter para indicar a sass que se declarara una variable
+$****** -> En los asteriscos se escribira el nombre de la variable :    
+                                                caracteristicas de las variables:
+                                                1.- No deben iniciar con un numero
+                                                2.- Son casesensintive
+                                                3.-No puede ser solo un numero(tienen que ser alfanumericas)
+                                                4.-No deben haber variables con el mismo nombre
+                                                5.-No puede haber espacio entre las variables si se decea porner espacio se con un "_"
+$color1: -> Los 2 puntos hace referencia a que la variable sera inicializada
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: $color1;
+  flex-direction: column;
+}
+footer{
+    color: white;
+}
+ul {
+  position: relative;
+  display: flex;
+  margin: 10px 0px;
+  & li {
+    list-style: none;
+    & a {
+      display: block; //los enlaces a son de tipo linera y con esto se cambian a bloque
+      width: $MedidaGlobal;
+      height: $MedidaGlobal;
+      background: $color1;
+      text-align: center;
+      line-height: 55px;
+      margin: 0 10px;
+      border-radius: 15px;
+      box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.03),
+        3px 3px 3px rgba(0, 0, 0, 0.3);
+      & .fa {
+        font-size: 22px;
+        color: #555;
+      }
+    }
+  }
+  @each $valorfila in $fila {        //@each repite codigo de una lista
+    &:nth-child(#{$valorfila}) li a:hover .fa {                  //ntc-child(1)son como arreglos
+      color: nth($colores, $valorfila); //sass sirve para reducir codigo
+      transition: 0.3s;
+      text-shadow: 0 0 15px nth($colores, $valorfila);
+    }
+  }
+}

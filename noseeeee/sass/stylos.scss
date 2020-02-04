@@ -1,0 +1,87 @@
+@use './mixin.scss' as mixins; //mixin es donde guardas como plantillas aparte
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+ul{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+display: flex;
+justify-content: space-around;
+    & li{
+        position: relative;
+        list-style: none;
+        height: 300px;
+        width: 10px;
+        background: white;
+        margin: 0 10px;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            background:#262626;
+            top: -30px;
+            border-top: {
+                left-radius:2px;
+                right-radius:2px ;
+            }
+
+            // border-bottom-left-radius: 2px;
+            // border-bottom-right-radius: 2px;
+            
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            bottom: -30px;
+            background: #262626;
+            border-bottom: {
+                left-radius:2px;
+                right-radius:2px ;
+                
+                
+            }
+           
+        }
+            &:nth-child(1){
+                @include mixins.background-sables(#ffd0d0,#f00)
+            }
+            &:nth-child(2){
+
+                @include mixins.background-sables(#ffffd7,#ff0)
+            }
+            &:nth-child(3){
+
+                @include mixins.background-sables(#bffbbf,rgb(39, 243, 21)) //asi se incluye el mixin
+            }
+            &:nth-child(4){
+
+                @include mixins.background-sables(#acffff,rgb(25, 44, 214))
+            }
+            &:nth-child(5){
+
+                @include mixins.background-sables(#bebeff,rgb(255, 0, 234))
+            }
+
+            &:hover{
+                background: #9b9b9b;
+                box-shadow: none;
+            }
+         
+          
+
+    }
+
+}
+
+
+
+

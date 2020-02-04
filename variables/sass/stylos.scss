@@ -57,6 +57,7 @@ ul {
       color: nth($colores, $valorfila); //sass sirve para reducir codigo
       transition: 0.3s;
       text-shadow: 0 0 15px nth($colores, $valorfila);
+      background:nth($colores_de_luces ,$valordefila);
     }
   }
 }

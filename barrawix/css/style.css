@@ -80,7 +80,6 @@
   top: 0%;
   width: 100%;
   height: 100%;
-  background: saddlebrown;
   position: fixed;
 }
 .contenedor-video-abajo .conte-video-fixed .letras-video {
@@ -99,14 +98,18 @@
   margin: auto;
   position: absolute;
 }
-.contenedor-video-abajo .conte-video-fixed h2 {
+
+h2.lideres {
+  width: 60%;
+  margin: auto;
   color: white;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   font-size: 55px;
-  z-index: 2;
+  z-index: 3;
+  position: relative;
 }
-.contenedor-video-abajo .conte-video-fixed h2 .fa {
+h2.lideres .fa {
   color: white;
   text-align: center;
   font-size: 70px;

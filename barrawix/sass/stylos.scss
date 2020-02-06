@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Caveat|Fredoka+One|Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 $break-pointTab: 627px;
 $width: 100%;
@@ -85,7 +86,7 @@ $width: 100%;
 .contenedor-video-abajo {
     margin: auto;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     // background: red;
     position: relative;
     z-index: 1;
@@ -131,6 +132,10 @@ $width: 100%;
     
     
 }
+/////TERMINA VIDEO FIXED
+
+
+/////COMIENZA LETRAS EN EL VIDEO/////
  h2.lideres{
      width: 60%;
      margin: auto;
@@ -141,6 +146,7 @@ $width: 100%;
     font-size: 55px;
     z-index: 3;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
     
     .fa{
         color: white;
@@ -149,12 +155,49 @@ $width: 100%;
         // background: red;
     }
 }
+///TERMINAN LETRAS EN EL VIDEO////////
 
-
-.servicios {
-  position: relative;;
+////COMIENZA SERVICIOS////////
+.contenedor-servicios {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 150vh;                    //este es el contenedor de toda la pagina servicios
   background: blue;
   z-index: 2;
+  & .contenedor-texto-servicios{
+      top: 100px;
+width: 30%;
+height: 10%;
+background: green;                   //este es el contenedor donde esta el texto servicios y la linea amarilla
+position: relative;
+display: flex;
+justify-content: center;
+margin: auto;
+  }
+
+& h3{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    width: 100%;                                //esto es el texto servicios con los estilos
+    color: white;
+    font-size: 50px;
+    background: red;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
+& h4{
+    position: absolute;
+    margin: auto;
+    width: 26%;                             //esta es la linea amarilla
+    height: 4%;
+    background: yellow;
+    transform: translate(0px, 75px);
+   
+
+}
+
+}
+
+

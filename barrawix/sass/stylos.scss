@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Caveat|Fredoka+One|Quicksand&display=swap");
+
+$break-pointTab: 627px;
+$width: 100%;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/////////BARRA////////
+
+.barra {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  height: 15vh;
+  background: #1e2d3b;
+  z-index: 3;
+  & ul {
+    // background: red;
+    width: 60%;
+    height: 15vh;
+    margin: auto;
+    float: right;
+    text-align: center;
+  }
+  & ul li {
+    // background:blue;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 65px;
+  }
+  & ul li a {
+    color: cornsilk;
+    text-decoration: none;
+    // background: green;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+  }
+  & a:hover {
+    color: #edcd1f;
+    transition: 0.8s;
+  }
+  & span {
+    color: 1e2d3b;
+    opacity: 0.7;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    // background: red;
+    display: flex;
+    transform: translate(0px, -10px);
+  }
+  & .esfera {
+    width: 30%;
+    height: 15vh;
+    background: #edcd1f;
+    position: relative;
+    & .txt-esfera {
+      width: 61%;
+      height: 13vh;
+      // background: red;
+      margin-left: 30%;
+      margin-top: 4%;
+      color: #1e2d3b;
+      position: absolute;
+      font-size: 22px;
+      font-family: "Bebas Neue", cursive;
+    }
+    & .logo {
+      width: 17%;
+      height: 10vh;
+      // background: #1E2D3B;
+      position: absolute;
+      margin-top: 6%;
+      margin-left: 13%;
+    }
+  }
+}
+
+/////////  TERMINA BARRA////////
+
+///////COMIENZA VIDEO FLIXED////////////////
+.contenedor-video-abajo {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    // background: red;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    
+    & .conte-video-fixed{
+        margin: auto;
+        top: -0%;
+        width: 100%;
+        height: 100%;
+        background: saddlebrown;
+        position: fixed;
+
+        & .letras-video{
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            margin-top: 98px;
+            width: 60%;
+            height: 55%;
+            // background: red;
+            position: relative;
+            
+      
+        
+        
+        }
+        & .video{
+                
+            width: 100%;
+            height: 110%;
+            margin: auto;
+            position: absolute;
+            
+       
+           
+        }
+        & h2{
+            color: white;
+            text-align: center;
+            margin-top: 100px;
+            font-size: 55px;
+            z-index: 2;
+            
+            .fa{
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+        }
+        
+    }
+    
+    
+}
+
+
+.servicios {
+  position: relative;;
+  width: 100%;
+  height: 100vh;
+  background: blue;
+  z-index: 2;
+}

@@ -3,10 +3,16 @@
 
 $break-pointTab: 627px;
 $width: 100%;
+$position:relative;
+
+
 
 * {
   margin: 0;
   padding: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 /////////BARRA////////
@@ -61,7 +67,7 @@ $width: 100%;
     & .txt-esfera {
       width: 61%;
       height: 13vh;
-      // background: red;
+    //   background: red;
       margin-left: 30%;
       margin-top: 4%;
       color: #1e2d3b;
@@ -72,7 +78,7 @@ $width: 100%;
     & .logo {
       width: 17%;
       height: 10vh;
-      // background: #1E2D3B;
+    //   background: #1E2D3B;
       position: absolute;
       margin-top: 6%;
       margin-left: 13%;
@@ -157,13 +163,16 @@ $width: 100%;
 }
 ///TERMINAN LETRAS EN EL VIDEO////////
 
+
 ////COMIENZA SERVICIOS////////
 .contenedor-servicios {
-  position: relative;
-  width: 100%;
-  height: 100vh;                    //este es el contenedor de toda la pagina servicios
-  background: white;
-  z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background: white;
+    z-index: 1;
+    transform: translate(0px, 301px);
+
   & .contenedor-texto-servicios{
       top: 100px;
 width: 30%;
@@ -181,7 +190,7 @@ margin: auto;
     margin: 10px;
     width: 100%;                                //esto es el texto servicios con los estilos
     color:black;
-    opacity: 0.4;
+    opacity: 0.3;
     font-size: 50px;
     // background: red;
     font-family: 'Montserrat', sans-serif;
@@ -201,6 +210,7 @@ margin: auto;
 
 }
 //TERMINA TITULO SERVICIOS
+
 ////COMIENZA EL CONTENEDOR DE IMAGENES DE PLANTEAMIENTO
 .conte-imgs {
     justify-content: center;
@@ -208,15 +218,15 @@ margin: auto;
     margin: auto;
     position: relative;
     width: 80%;
-    height: 80%;
+    height: 30%;
     // background: red;
-    margin-top: 150px;
+    margin-top: 100px;
     &  .img1 {
         width: 40%;
-        height: 60%;
+        height: 100%;
         margin-left: 15px;
         
-        // background: blue;
+        background: rgba(153, 153, 153, 0.15);
         &  .img1-1 {
             width: 100%;
             height: 70%;
@@ -224,20 +234,507 @@ margin: auto;
          & .titulo {
             text-align: left;
             font-size: 25px;
+            margin-left: 30px;
             font-family: "Fredoka One", cursive;
             color: #3d5975;
             margin-top:40px;
+            // background: seagreen;
          
           }
           & .txt {
-            color: #aaaaaa;
-          
-            text-align: left;
+            color:rgb(182, 181, 181);
+            transform: translate(0px,15px);
+            text-align: center;
             font-family: sans-serif;
+            background: rgba(153, 153, 153, 0.15);
+            height: 50%;
           }
       }
   }
   //TERMINA CONTENEDOR DE IMAGENES DE PLANEACION
+
+  //COMIENZA PAGINA NOSOTROS/////
+  .contenedor-nosotros-todo{
+ position: $position;
+    width: 100%;
+    height: 120vh;
+
+    margin-top: 299px;
+
+    z-index: 1;
+    // background: red;
+    & .contenedor-texto-nosotros{
+        width: 50%;
+        height: 120vh;
+        background: rgb(241, 241, 241);
+        margin-top: 100px;
+        & h3{
+            position: relative;
+            text-align: center;
+            margin: 0px;
+            width: 100%;    
+            height: 100px;                            //esto es el texto servicios con los estilos
+            color:black;
+            opacity: 0.3;
+            font-size: 50px;
+            // background: red;
+            font-family: 'Montserrat', sans-serif;
+            transform: translate(0px,100px);
+        
+    }
+    & h4{
+        position: absolute;
+        margin: auto;
+        width: 10%;                             //esta es la linea amarilla
+        height: 1%;
+        background: #EDCD1F;
+        transform: translate(170px, 75px);
+        z-index:1;
+     
+       
+    
+    }
+    & p{
+
+        margin: auto;
+        top: 140px;
+        margin-left: 160px;
+        position: relative;
+        width: 60%;
+        height: 65%;
+        color: black;
+        opacity: 0.5;
+        // background: #3d5975;
+        text-align: left;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+        
+    }
+    & .imagen-nosotros-fixed{
+
+        margin-left: 50%;
+        width: 50%;
+        height: 100%;
+        // background: blue;
+        position: absolute;
+        // position: fixed;
+        float: left;
+        z-index: 9;
+        & img{
+                width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: 4;
+        }
+    }
+}
+
+ }
+ //COMIENZA BARRA AMARILLA
+ .contenedor-amarillo{
+     width: 100%;
+     height: 35%;
+     background:#EDCD1F;
+     position: absolute;
+     z-index: 2;
+     font-family: Arial, Helvetica, sans-serif;
+
+     & h4{
+         
+         width: 20%;
+         height: 25%;
+        //  background: red;
+         color: white;
+         font-size: 70px;
+         text-align: center;
+         display: inline-block;
+         position: relative;
+         margin: auto;
+         margin-left: 55px;
+         margin-top: 20px;
+      
+     }
+     & h5{
+
+        width: 15%;
+        height: 25%;
+        // background: #3d5975;
+        color: #1E2D3B;
+        display: inline-block;
+        position: absolute;
+        margin: auto;
+        transform: translate(-223px, 104px);
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+
+     }
+ }
+ //TERMINA PAGINA NOSOTROS/////
+
+
+    ////COMIENZA PAGINA PROYECTOS/////
+  .contenedor-proyectos-todo{
+     width: 100%;
+     height: 200vh;
+     background: white;
+     position: absolute;
+     z-index: 1;
+     margin-top: 230px;
+
+  }
+  .contenedor-texto-proyectos{
+    top: 100px;
+width: 30%;
+height: 10%;
+// background: green;                   //este es el contenedor donde esta el texto proyectos y la linea amarilla
+position: relative;
+display: flex;
+justify-content: center;
+margin: auto;
+& h3{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    width: 100%;                                //esto es el texto proyectos con los estilos
+    color:black;
+    opacity: 0.3;
+    font-size: 50px;
+    // background: red;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+}
+  & h4{
+    position: absolute;
+    margin: auto;
+    width: 30%;                             //esta es la linea amarilla
+    height: 10%;
+    background: #EDCD1F;
+    transform: translate(0px, 75px);
+    z-index: 1;
+  }
+}
+.contenedor-de-imagenes{
+
+    top: 100px;
+    width: 90%;
+    height: 75%;
+    // background: darkcyan;
+    position: relative;
+    margin: auto;
+& .contenedor-de-cada-imagen{
+  display: inline-block;
+  
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40%;
+    height: 48%;
+    // background: red;
+    
+ 
+}
+& .contenedor-de-todas-las-img{
+
+  width: 100%;
+  height: 100%;
+  // background: rgb(33, 189, 92);
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+align-items: center;
+position: relative;
+
+& span{
+  // position: absolute;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0px;
+  // background: hotpink;
+  text-align: right;
+  display: inline-block;
+  font-size: 40px;
+  transform: translate(0px,250px);
+  visibility: hidden;
+  font-family: "Quicksand", sans-serif;
+
+ 
+}
+& .contenedor-de-cada-imagen:hover >img{
+  opacity: 0.2;
+transition: 0.7s;
+}
+& .contenedor-de-cada-imagen:hover >span{
+  visibility: visible;
+}
+}
+& img{
+  width: 100%;
+  height: 100%;
+}
+}
+//TERMINA PAGINA PROYECTOS///////
+
+/////COMIENZA PAGINA CLIENTES//////
+
+.contenedor-clientes-todo{
+
+  width: 100%;
+  height: 100vh;
+  background:white;
+  position: relative;
+  z-index: 2;
+  top: 1540px;
+  & .logos-clientes{
+
+    width: 100%;
+    height: 55%;
+    background: rgba(182, 181, 181, 0.239);
+    position: absolute;
+    margin-top: 150px;
+    
+
+  }
+  & .contenedor-de-cada-cliente{
+    
+    width: 15%;
+    height: 30%;
+    // margin-left: 15px;
+    // background: red;
+    margin: 120px 29px auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    & img{
+      width: 100%;
+      height: 100%;
+      filter: grayscale(100%);
+
+    
+    }
+    & img:hover{
+      filter: grayscale(0%);
+      transition: 0.7s;
+    }
+  }
+}
+
+
+//TERMINA PAGINA CLIENTES////
+
+//COMIENZA PAGINA CONTACTO/////
+
+.contenedor-contacto-todo{
+
+  width: 100%;
+  height: 200vh;
+  background:white;
+  position: absolute;
+  z-index: 2;
+  top: 600px;
+& iframe{
+  position: absolute;
+  margin:100px 15% auto;
+
+
+}
+& .preguntas{
+  width:35%;
+  height: 12%;
+  // background: red;
+  position: absolute;
+  left: 190px;
+  top: 700px;
+  font-size: 20px;
+  color:   #1E2D3B;
+  font-weight: normal;
+  & span{
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    color:   #1E2D3B;
+    font-weight: bolder;
+
+
+  }
+  
+}
+& .oficina{
+  width:35%;
+  height: 20%;
+  // background: red;
+  position: absolute;
+  left: 700px;
+  top: 700px;
+  font-size: 20px;
+  color:   #1E2D3B;
+  font-weight: normal;
+  & span{
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    color:   #1E2D3B;
+    font-weight: bolder;
+
+
+  }
+}
+& .empleos{
+  width:35%;
+  height: 10%;
+  // background: red;
+  position: absolute;
+  left: 700px;
+  top: 1000px;
+  font-size: 20px;
+  color:   #1E2D3B;
+  font-weight: normal;
+  & span{
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    color:   #1E2D3B;
+    font-weight: bolder;
+    margin-top: 20px;
+
+
+  
+}
+
+  }
+  & .presupuesto{
+    width:35%;
+    height: 6%;
+    // background: red;
+    position: absolute;
+    left: 700px;
+    top: 1150px;
+    font-size: 28px;
+    color:   #1E2D3B;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+
+    & h4{
+      position: relative;
+      margin: auto;
+      width: 20%;                             //esta es la linea amarilla
+      height: 7%;
+      background: #EDCD1F;
+      transform: translate(-176px, 0px);
+      z-index: 3;
+   
+    }
+ 
+  }
+  & .forma{
+
+    width: 35%;
+    height: 20%;
+    // background: red;
+    position: relative;
+    top: 800px;
+    left: 190px;
+
+    & input{
+      margin-top: 5px;
+      width: 100%;
+      height:30px;
+      background: rgba(212, 212, 212, 0.233);
+      border: none;
+      &::placeholder{
+        color:rgba(173, 172, 172, 0.842);
+        font-family: "Quicksand", sans-serif;
+
+        transform: translate(7px);
+
+      }
+     
+    }
+    & .btn{
+      background: #1E2D3B;
+      border: none;
+      width: 20%;
+      position: absolute;;
+      margin-left: 80%;
+      color: white;
+     
+      font-family: "Quicksand", sans-serif;
+
+    }
+    
+    & .area{
+      width: 100%;
+      height:100px;
+      background: rgba(212, 212, 212, 0.233);
+      border: none;
+      color: black;
+      &::placeholder{
+        color:rgba(173, 172, 172, 0.842);
+        font-family: "Quicksand", sans-serif;
+        transform: translate(7px,-35px);
+
+        
+
+      }
+
+    }
+    & footer{
+
+      color:black;
+      margin-top: 120px;
+      margin-left: 100px;
+      display: inline-flex;
+    }
+  }
+  & .iconos{
+    width: 50%;
+    height: 20%;
+    // background: royalblue;
+    margin-left: 560px;
+    margin-top: -40px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+
+  }
+  & .fa{
+    width: 25%;
+    height: 70%;
+    background:rgba(173, 172, 172, 0.253);
+color:white;
+margin-left: 35px;
+  font-size: 30px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius:100px;
+ 
+  }
+  
+}
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+  
  
   
  
